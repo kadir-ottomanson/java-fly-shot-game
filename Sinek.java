@@ -35,7 +35,7 @@ public class Sinek extends Baglanti{
 
     private void initSinek() {
 
-        loadImage("C:\\Users\\Osmanoğlu\\Documents\\NetBeansProjects\\projeimage\\sinek.png");
+        loadImage("sinek.png");
         getImageDimensions();
     }
 
@@ -50,7 +50,7 @@ public class Sinek extends Baglanti{
         }
     }
     public void sescal() throws Exception{
-        String gongFile = "C:\\Users\\Osmanoğlu\\Documents\\NetBeansProjects\\projeimage\\sinek.wav";
+        String gongFile = "sinek.wav";
     InputStream in = new FileInputStream(gongFile);
 
     AudioStream audioStream = new AudioStream(in);
