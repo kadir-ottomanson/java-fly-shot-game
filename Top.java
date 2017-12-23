@@ -32,7 +32,7 @@ public class Top extends Baglanti{
     
     private void initTop() {
         
-        loadImage("C:\\Users\\Osmanoğlu\\Documents\\NetBeansProjects\\projeimage\\top.png");
+        loadImage("top.png");
         getImageDimensions();        
     }
     public void move() {
@@ -46,7 +46,7 @@ public class Top extends Baglanti{
     
     public void sescal() throws Exception{
      
-         String gongFile = "C:\\Users\\Osmanoğlu\\Documents\\NetBeansProjects\\projeimage\\top1.wav";
+         String gongFile = "top1.wav";
     InputStream in = new FileInputStream(gongFile);
 
     AudioStream audioStream = new AudioStream(in);
