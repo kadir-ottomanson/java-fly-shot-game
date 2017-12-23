@@ -25,7 +25,7 @@ public class Varil extends Baglanti{
     }
      private void initVaril() {
          top = new ArrayList<>();
-        loadImage("C:\\Users\\Osmanoğlu\\Documents\\NetBeansProjects\\projeimage\\varil.png");
+        loadImage("varil.png");
         getImageDimensions();
     }
     public void fire(double aci) throws Exception {
